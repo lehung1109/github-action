@@ -1,4 +1,5 @@
 name: CI
+run-name: ${{ github.actor }} is testing the context
 on: push
 jobs:
   prod-check:
